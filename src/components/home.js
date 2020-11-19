@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import author from "../images/headshot.png";
+// import author from "../images/headshot.png";
 
 const Home = ({name, paragraph, paragraph2, authorImage})=>{
 
@@ -12,7 +12,7 @@ const Home = ({name, paragraph, paragraph2, authorImage})=>{
             <p>{paragraph} <br></br>{paragraph2}</p>
             </div>
             <div className="image_container">
-                <img src={author} alt="Author"></img>
+                <img src={authorImage} alt="Author"></img>
                 <div className="bg"></div>
             </div>
             
