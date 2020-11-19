@@ -1,38 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background:white;
+  font-size: 10px;
+  font-family: 'Fredericka the Great', cursive;
+  /* background-image: url('https://images.unsplash.com/photo-1465173121987-373740a169b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
+  /* color:black; */
+}
+
+#background {
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+  width:100%;
+  height:100%;
+}
+
 .App {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/* Header */
+
+.header_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 80vw;
+  top: 5rem;
+  position: relative;
+}
+.header_container h1{
+  font-size: 1rem;
+}
+.header_container ul{
+  list-style: none;
+}
+.header_container ul li{
+  display: inline-block;
+  padding-right: 2rem;
+}
+.header_container ul li a{
+  text-decoration: none;
+  color: gray;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Home */
+.home_container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  position: relative;
+  top: 8rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+}
+
+.home_container .home_head_wrapper{
+  position: relative;
+  top:2rem;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-left: 100px;
+}
+.home_container .home_head_wrapper h1{
+  font-size: 4.5rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+}
+.home_container .home_head_wrapper h1 span{
+  color:#1E6FD9;
+}
+.home_container .home_head_wrapper p{
+  position: relative;
+  top:-4rem;
+  font-size: 2rem;
+  opacity: 0.5;
+
+}
+.home_container .image_container img{
+  position: relative;
+  height: 26rem;
+  width: 18rem;
+  top:5rem;
+  border-style: solid;
+  border-width: 5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-color: #1E6FD9;
+  margin-right: 100px;
+}
+
+
+/* Work */
+.work_container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 18rem;
+    width: 80vw;
+
+}
+.work_container h1{
+  font-size: 5rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+}
+.work_container .projects_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.work_container .projects_container img{
+  height: 20rem;
+  width: 20rem;
+  border-style: solid;
+  border-width: 5px;
+  border-color: skyblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.work_container .projects_container .title{
+  font-size: 1.2rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+  /* text-align: center; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Contact */
+
+.contact_container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: relative;
+  top:20rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+}
+.contact_container h1{
+  font-size: 5rem;
+  font-family: 'Fredericka the Great', cursive;;
+}
+.contact_container p{
+  width: 50vw;
+  font-size: 2rem;
+  position: relative;
+  top:-5rem;
+  opacity: 0.5;
+}
+.contact_container .email_link{
+  font-size: 2rem;
+  color: black;
+  opacity: 0.5;
+  position: relative;
+  top:-7rem;
+  
+}
+
+.contact_container ul{
+  list-style-type: none;
+
+}
+.contact_container li{
+  display: inline;
+  padding-right: 3rem;
+
+
+}
+.contact_container li a{
+  color: black;
+  text-decoration: none;
+  font-size: 4rem;
+  padding-bottom: 100px;
+
+}
+
+
+
+/* About */
+
+.about_container{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  top:10rem;
+}
+.about_container h1{
+  font-size: 4rem;
+  font-family: 'Fredericka the Great', cursive;;
+}
+.about_container p{
+  position: relative;
+  top:-2rem;
+  font-size: 1.3rem;
+  width: 60vw;
+  opacity: 0.5;
+  margin-bottom: 0px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: bold;
+}
+.about_contact{
+  position: relative;
+  top:-10rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 2px;
+  }
+  /* Header */
+
+  .header_container {
+    width: 80vw;
+    top: 2rem;
+  }
+
+  .header_container h1 {
+    font-size: 1rem;
+  }
+
+
+  .header_container ul li {
+    padding-right: 1rem;
+  }
+
+  /* Home */
+
+.home_container {
+  top: 6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home_container .home_head_wrapper {
+  top: 1.5rem;
+  width: 60vw;
 }
+
+.home_container .home_head_wrapper h1 {
+  font-size: 1.2rem;
+}
+
+
+.home_container .home_head_wrapper p {
+  top: 0rem;
+  font-size: 0.7rem;
+}
+
+.home_container .image_container img {
+  height: 10rem;
+  width: 8rem;
+  top: 2rem;
+}
+
+/* Work */
+.work_container {
+  top: 10rem;
+  width: 80vw;
+}
+
+.work_container h1 {
+  font-size: 2rem;
+}
+
+.work_container .projects_container {
+  grid-gap: 0.2rem;
+}
+
+.work_container .projects_container img {
+  height: 8rem;
+  width: 8rem;
+}
+
+.work_container .projects_container .title {
+  font-size: 0.8rem;
+}
+
+
+/* Contact */
+
+.contact_container {
+  top: 10rem;
+}
+
+.contact_container h1 {
+  font-size: 2rem;
+  font-family: 'Fredericka the Great', cursive;
+
+}
+
+.contact_container p {
+  font-size: 0.6rem;
+  top: -1rem;
+}
+
+.contact_container .email_link {
+  font-size: 1rem;
+  top: 0rem;
+}
+
+.contact_container li {
+  padding-right: 1rem;
+}
+
+.contact_container li a {
+  font-size: 0.5rem;
+}
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:800px){
+  body {
+    font-size: 2px;
+  }
+
+  /* Header */
+
+  .header_container {
+    width: 80vw;
+    top: 2rem;
+  }
+
+  .header_container h1 {
+    font-size: 1rem;
+  }
+
+
+  .header_container ul li {
+    padding-right: 1rem;
+  }
+
+  /* Home */
+
+  .home_container {
+    top: 6rem;
+  }
+
+  .home_container .home_head_wrapper {
+    top: 1.5rem;
+    width: 60vw;
+  }
+
+  .home_container .home_head_wrapper h1 {
+    font-size: 1.2rem;
+  }
+
+
+  .home_container .home_head_wrapper p {
+    top: 0rem;
+    font-size: 0.7rem;
+  }
+
+  .home_container .image_container img {
+    height: 10rem;
+    width: 8rem;
+    top: 2rem;
+  }
+
+  /* Work */
+  .work_container {
+    top: 10rem;
+    width: 80vw;
+  }
+
+  .work_container h1 {
+    font-size: 1rem;
+  }
+
+  .work_container .projects_container {
+    grid-gap: 0.2rem;
+  }
+
+  .work_container .projects_container img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .work_container .projects_container .title {
+    font-size: 0.8rem;
+  }
+
+
+  /* Contact */
+
+  .contact_container {
+    top: 10rem;
+  }
+
+  .contact_container h1 {
+    font-size: 1rem;
+  }
+
+  .contact_container p {
+    font-size: 0.6rem;
+    top: -1rem;
+  }
+
+  .contact_container .email_link {
+    font-size: 1rem;
+    top: 0rem;
+  }
+
+  .contact_container li {
+    padding-right: 1rem;
+  }
+
+  .contact_container li a {
+    font-size: 0.5rem;
+  }
+
+
+}
+
