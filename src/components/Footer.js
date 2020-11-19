@@ -1,14 +1,15 @@
-  
-// import React from "react";
-// import '../App.css';
+import React from "react";
+import '../App.css';
 
-// function Footer(props) {
-//     return (
-//         // Sticky footer template
-//         <footer className="footer mt-auto py-3 text-center">
-//             <p>Copyright 2020</p>
-//         </footer>
-//     )
-// }
+function Footer() {
 
-// export default Footer;
+    return (
+        <footer className="footer mt-auto py-3 text-center">
+            <div className="container">
+                <h4>Made With ❤ by Christy Lee</h4>
+            </div>
+        </footer>
+    );
+}
+
+export default Footer;
