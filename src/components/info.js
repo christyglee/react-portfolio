@@ -98,4 +98,5 @@ export default {
   
     'Thank you for taking the time to view my portfolio! Please feel free to reach out via email or connect with me via LinkedIn and GitHub!'
   ]
+  
 };
