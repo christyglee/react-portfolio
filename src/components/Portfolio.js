@@ -10,12 +10,12 @@ const Portfolio = ({projects}) =>{
                 {projects.map((project)=>(
                 <div key={project.id} className="project">
                     <div className="image">
-                        <a href={project.url}>
+                        <a href={project.url} target="_blank">
                             <img src={project.imageSrc} alt={project.title}></img>
                         </a>
                     </div>
                     <div className="title">
-                    <a href={project.repoUrl}> <FaGithub></FaGithub> {project.title}
+                    <a href={project.repoUrl} target="_blank"> <FaGithub></FaGithub> {project.title}
                     </a>
                     </div>
                 </div>
