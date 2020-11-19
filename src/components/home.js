@@ -20,4 +20,5 @@ const Home = ({name, paragraph, paragraph2, authorImage})=>{
     )
 }
 
+
 export default Home;
