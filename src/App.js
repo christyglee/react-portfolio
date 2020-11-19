@@ -11,7 +11,7 @@ function App() {
         <Route path="/about">
         <About></About>
         </Route>
-        <Route path="/" exact>
+        <Route path="/react-portfolio" exact>
         <Landing></Landing>
         </Route>
       </Switch>

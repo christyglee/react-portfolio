@@ -6,7 +6,7 @@ const Header = ({name, contactEmail})=>{
     return(
         <div>
             <div className="header_container">
-                <Link to="/"><h1>{name}</h1></Link>
+                <Link to="/react-portfolio"><h1>{name}</h1></Link>
                 <nav>
                     <ul>
                         <li><Link to="/about">ABOUT</Link></li>

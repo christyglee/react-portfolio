@@ -15,7 +15,7 @@ export default {
   ],
 
   // Landing Page Image (replace - root/public/assets/photo.jpg)
-  landingPageImage: "images/headshot.png",
+  landingPageImage: "headshot.png",
 
   // Project information
   projects: [
