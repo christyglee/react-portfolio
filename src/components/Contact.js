@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
 import '../App.css';
+import Footer from './Footer';
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
 
@@ -36,6 +37,9 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             </li>
           </ul>
         </div>
+        <div className="footer_container">
+          <Footer></Footer>
+      </div>
       </div>
     );
 }
