@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer className="footer mt-auto py-3 text-center">
             <div className="container">
-                <h4>Made With ❤ by Christy Lee</h4>
+                <h4>Made with ❤ by Christy Lee</h4>
             </div>
         </footer>
     );
