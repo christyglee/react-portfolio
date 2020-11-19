@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './header';
+import Header from './Header';
 import Contact from './Contact';
-import data from './info';
+import data from './Info';
 import '../App.css';
 // import Footer from './Footer';
+
 
 const About = () =>{
 return (
