@@ -1,3 +1,5 @@
+import burger from "../images/Burger-App.png";
+
 export default {
 
   name: "CHRISTY LEE",
@@ -45,7 +47,7 @@ export default {
     {
       id: 4, 
       title: "burger repository",
-      imageSrc: "images/Burger-App.png",
+      imageSrc: burger,
       url: "https://fathomless-everglades-84577.herokuapp.com/",
       repoUrl: "https://github.com/christyglee/burger"
     },
