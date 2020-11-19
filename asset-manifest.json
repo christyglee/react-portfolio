@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9bf8e333.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.299b82ae.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.299b82ae.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.22956c97.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.22956c97.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.c3000839.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c3000839.js.map",
     "static/js/2.d935c319.chunk.js": "/react-portfolio/static/js/2.d935c319.chunk.js",
@@ -11,12 +11,16 @@
     "static/css/main.9bf8e333.chunk.css.map": "/react-portfolio/static/css/main.9bf8e333.chunk.css.map",
     "static/js/2.d935c319.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d935c319.chunk.js.LICENSE.txt",
     "static/media/Burger-App.bd5c547e.png": "/react-portfolio/static/media/Burger-App.bd5c547e.png",
-    "static/media/headshot.aed75a16.png": "/react-portfolio/static/media/headshot.aed75a16.png"
+    "static/media/Day_Planner.07afbe7b.jpg": "/react-portfolio/static/media/Day_Planner.07afbe7b.jpg",
+    "static/media/headshot.aed75a16.png": "/react-portfolio/static/media/headshot.aed75a16.png",
+    "static/media/o'clocktail_website.8a10b952.PNG": "/react-portfolio/static/media/o'clocktail_website.8a10b952.PNG",
+    "static/media/roots-App.7d6aaa06.png": "/react-portfolio/static/media/roots-App.7d6aaa06.png",
+    "static/media/weather_dashboard.49842b02.PNG": "/react-portfolio/static/media/weather_dashboard.49842b02.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.c3000839.js",
     "static/js/2.d935c319.chunk.js",
     "static/css/main.9bf8e333.chunk.css",
-    "static/js/main.299b82ae.chunk.js"
+    "static/js/main.22956c97.chunk.js"
   ]
 }
