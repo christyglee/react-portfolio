@@ -4,7 +4,7 @@ import weatherDashboard from "../images/weather_dashboard.PNG";
 import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-App.png";
 import roots from "../images/roots-App.png";
-
+import resume from "../images/Christy_Lee_Resume_Oct2020.pdf";
 
 export default {
 
@@ -87,7 +87,7 @@ export default {
     },
     {
       name: "Resume",
-      url: "images/Christy_Lee_Resume_Oct2020.pdf"
+      url: resume
     }
   ],
 
