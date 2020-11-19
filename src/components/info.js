@@ -1,4 +1,10 @@
+import authorImage from "../images/headshot.png";
+import oClocktail from "../images/o'clocktail_website.PNG";
+import weatherDashboard from "../images/weather_dashboard.PNG";
+import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-App.png";
+import roots from "../images/roots-App.png";
+
 
 export default {
 
@@ -17,30 +23,28 @@ export default {
   ],
 
   // Landing Page Image (replace - root/public/assets/photo.jpg)
-  landingPageImage: "headshot.png",
+  landingPageImage: authorImage,
 
   // Project information
   projects: [
     {
       id: 1, 
       title: "o'clocktail repository", 
-
-      imageSrc: "images/o'clocktail_website.PNG",
-
+      imageSrc: oClocktail,
       url: "https://christyglee.github.io/o-clocktail/",
       repoUrl: "https://github.com/christyglee/o-clocktail"
     },
     {
       id: 2, 
       title: "weather dashboard repository",
-      imageSrc: "images/weather_dashboard.PNG",
+      imageSrc: weatherDashboard,
       url: "https://christyglee.github.io/weather-dashboard/",
       repoUrl: "https://github.com/christyglee/weather-dashboard"
     },
     {
       id: 3, 
       title: "work day scheduler repository",
-      imageSrc: "images/Day_Planner.jpg",
+      imageSrc: dayPlanner,
       url: "https://christyglee.github.io/work-day-scheduler/",
       repoUrl: "https://github.com/christyglee/work-day-scheduler"
     },
@@ -54,7 +58,7 @@ export default {
     {
       id: 5, 
       title: "rooTs repository",
-      imageSrc: "images/roots-App.png",
+      imageSrc: roots,
       url: "https://infinite-cove-31054.herokuapp.com/",
       repoUrl: "https://github.com/christyglee/roots-a-social-garden"
     },
