@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header'
-import Home from './Home';
+import Header from './header'
+import Home from './home';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 // import Footer from './Footer';
 
 
-import data from './Info';
+import data from './info';
 
 const Landing = ()=>{
     return(<div className="App">

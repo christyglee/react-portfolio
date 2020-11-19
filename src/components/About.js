@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from './header';
 import Contact from './Contact';
-import data from './Info';
+import data from './info';
 import '../App.css';
 // import Footer from './Footer';
 
