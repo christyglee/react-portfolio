@@ -6,7 +6,7 @@ I am excited to share my progress and improve my skill set throughout this exper
 
 <br>
 
-![alt-text](react-portfolio1.gif)
+![alt-text](react_portfolio.gif)
 
 <br>
 
