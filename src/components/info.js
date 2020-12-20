@@ -100,7 +100,7 @@ export default {
   
     'My interest in coding stems back from the Xanga and Myspace days (I may be dating myself here, haha), but I never thought about pursuing coding as a career nor had the time to learn post graduating. This pandemic has been a blessing in disguise as it has given me the time and opportunity to pursue coding as my new career path in the tech industry.',
   
-    'As I am currently enrolled in a Full-Stack Web Development coding boot camp through UC Berkeley, I have an interest in becoming either a Full-Stack web developer or a Front-End web designer; however, the options are limitless!',
+    'I have recently completed a Full-Stack Web Development program through UC Berkeley Extension and have an interest in becoming either a Full-Stack Web Developer or a Front-End Developer; however, the options are limitless!',
   
     'Thank you for taking the time to view my portfolio! Please feel free to reach out via email or connect with me via LinkedIn and GitHub!'
   ]
