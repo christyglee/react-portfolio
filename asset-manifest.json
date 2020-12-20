@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ffdc6384.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e2346821.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e2346821.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.e380fd96.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e380fd96.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.c3000839.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c3000839.js.map",
     "static/js/2.d935c319.chunk.js": "/react-portfolio/static/js/2.d935c319.chunk.js",
@@ -13,7 +13,6 @@
     "static/media/Burger-App.bd5c547e.png": "/react-portfolio/static/media/Burger-App.bd5c547e.png",
     "static/media/Christy_Lee_Resume_Oct2020.39ea4628.pdf": "/react-portfolio/static/media/Christy_Lee_Resume_Oct2020.39ea4628.pdf",
     "static/media/Day_Planner.07afbe7b.jpg": "/react-portfolio/static/media/Day_Planner.07afbe7b.jpg",
-    "static/media/googlebooksearch.65518cd8.PNG": "/react-portfolio/static/media/googlebooksearch.65518cd8.PNG",
     "static/media/headshot.aed75a16.png": "/react-portfolio/static/media/headshot.aed75a16.png",
     "static/media/o'clocktail_website.8a10b952.PNG": "/react-portfolio/static/media/o'clocktail_website.8a10b952.PNG",
     "static/media/roots-App.7d6aaa06.png": "/react-portfolio/static/media/roots-App.7d6aaa06.png",
@@ -23,6 +22,6 @@
     "static/js/runtime-main.c3000839.js",
     "static/js/2.d935c319.chunk.js",
     "static/css/main.ffdc6384.chunk.css",
-    "static/js/main.e2346821.chunk.js"
+    "static/js/main.e380fd96.chunk.js"
   ]
 }
