@@ -6,7 +6,7 @@ import Footer from './Footer';
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
 
     return (
-      <div className="contact_container">
+      <div className="contact_container" id="contact">
         <h1>let's get social.</h1>
         <p>{contactPara}</p>
         <br></br>
