@@ -5,6 +5,7 @@ import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-App.png";
 import roots from "../images/roots-App.png";
 import resume from "../images/Christy_Lee_Resume_Oct2020.pdf";
+import techtalk from "../images/signin.gif";
 
 export default {
 
@@ -62,13 +63,13 @@ export default {
       url: "https://infinite-cove-31054.herokuapp.com/",
       repoUrl: "https://github.com/christyglee/roots-a-social-garden"
     },
-    // {
-    //   id: 6, 
-    //   title: "rooTs a social media garden repository",
-    //   imageSrc: "images/roots-App.png",
-    //   url: "https://infinite-cove-31054.herokuapp.com/",
-    //   repoUrl: "https://github.com/christyglee/roots-a-social-garden"
-    // }
+    {
+      id: 6, 
+      title: "Tech Talk",
+      imageSrc: techtalk,
+      url: "https://app-tech-talk.herokuapp.com/",
+      repoUrl: "https://github.com/christyglee/tech-talk"
+    }
 
   ],
 
