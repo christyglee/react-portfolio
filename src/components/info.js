@@ -66,14 +66,14 @@ export default {
     },
     {
       id: 6,
-      title: "Google Book Search",
+      title: "google book search",
       imageSrc: google,
       url: "https://intense-castle-73728.herokuapp.com/",
       repoUrl: "https://github.com/christyglee/google-book-search-mern"
     },
     {
       id: 7, 
-      title: "Tech Talk",
+      title: "tech talk",
       imageSrc: techtalk,
       url: "https://app-tech-talk.herokuapp.com/",
       repoUrl: "https://github.com/christyglee/tech-talk"
