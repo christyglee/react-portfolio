@@ -1,8 +1,8 @@
 import authorImage from "../images/headshot.png";
-import oClocktail from "../images/o'clocktail_website.PNG";
+import oClocktail from "../images/projectdemo.gif";
 import weatherDashboard from "../images/weather_dashboard.PNG";
 import dayPlanner from "../images/Day_Planner.jpg";
-import burger from "../images/Burger-App.png";
+import burger from "../images/Burger-Logger-Application.gif";
 import roots from "../images/roots-App.png";
 // import resume from "../images/FrontEndDevelopmentResume.pdf";
 import techtalk from "../images/signin.gif";
