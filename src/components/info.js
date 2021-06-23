@@ -95,13 +95,13 @@ export default {
   // About page
   aboutTitle: "about me.",
   aboutPara:[
-    'Greetings and welcome to my portfolio! My name is Christy Lee, I was born and raised in sunny San Diego and now currently residing in Orange County after living in San Francisco for a couple of years. Some of my hobbies include baking, hiking, traveling, eating, and snuggling with my cat, Louis Kitzstrong (Louis for short).',
+    'Greetings and welcome to my portfolio! My name is Christy Lee, I was born and raised in sunny San Diego and currently residing in Orange County after living in San Francisco for a couple of years. Some of my hobbies include baking, hiking, traveling, eating, and snuggling with my cat, Louis Kitzstrong (Louis for short).',
 
-    'I attended San Diego State University and obtained a Bachelor of Science degree in Hospitality & Tourism Management with emphasis in Hotel Management. Shortly after graduating, I started my career with Marriott International and was with the company for over 8 years.',
+    'I attended San Diego State University and obtained a Bachelor of Science degree in Hospitality & Tourism Management with emphasis in Hotel Management. Shortly after graduating, I started my career with Marriott International and enjoyed my time with the company for over 8 years.',
   
     'My interest in coding stems back from the Xanga and Myspace days (I may be dating myself here, haha), but I never thought about pursuing coding as a career nor had the time to learn post graduating. This pandemic has been a blessing in disguise as it has given me the time and opportunity to pursue coding as my new career path in the tech industry.',
   
-    'I have recently completed a Full-Stack Web Development program through UC Berkeley Extension and have an interest in becoming either a Full-Stack Web Developer or a Front-End Developer; however, the options are limitless!',
+    'I recently completed a coding boot camp and received a Full-Stack Web Development Certificate through UC Berkeley Extension and I am very eager and interested in becoming either a Full-Stack Web Developer or a Front-End Developer; however, the options are limitless!',
   
     'Thank you for taking the time to view my portfolio! Please feel free to reach out via email or connect with me via LinkedIn and GitHub!'
   ]
