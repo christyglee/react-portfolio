@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ffdc6384.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.85249921.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.85249921.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.de0a2daf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.de0a2daf.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.c3000839.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c3000839.js.map",
-    "static/js/2.d935c319.chunk.js": "/react-portfolio/static/js/2.d935c319.chunk.js",
-    "static/js/2.d935c319.chunk.js.map": "/react-portfolio/static/js/2.d935c319.chunk.js.map",
+    "static/js/2.48586acf.chunk.js": "/react-portfolio/static/js/2.48586acf.chunk.js",
+    "static/js/2.48586acf.chunk.js.map": "/react-portfolio/static/js/2.48586acf.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/main.ffdc6384.chunk.css.map": "/react-portfolio/static/css/main.ffdc6384.chunk.css.map",
-    "static/js/2.d935c319.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d935c319.chunk.js.LICENSE.txt",
-    "static/media/Burger-App.bd5c547e.png": "/react-portfolio/static/media/Burger-App.bd5c547e.png",
-    "static/media/Day_Planner.07afbe7b.jpg": "/react-portfolio/static/media/Day_Planner.07afbe7b.jpg",
+    "static/js/2.48586acf.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.48586acf.chunk.js.LICENSE.txt",
+    "static/media/Burger-Logger-Application.23d5889e.gif": "/react-portfolio/static/media/Burger-Logger-Application.23d5889e.gif",
+    "static/media/googlebooksearch.fcd7a6f8.gif": "/react-portfolio/static/media/googlebooksearch.fcd7a6f8.gif",
     "static/media/headshot.aed75a16.png": "/react-portfolio/static/media/headshot.aed75a16.png",
-    "static/media/o'clocktail_website.8a10b952.PNG": "/react-portfolio/static/media/o'clocktail_website.8a10b952.PNG",
-    "static/media/roots-App.7d6aaa06.png": "/react-portfolio/static/media/roots-App.7d6aaa06.png",
+    "static/media/projectdemo.b0fe585c.gif": "/react-portfolio/static/media/projectdemo.b0fe585c.gif",
+    "static/media/rootsdemo2.f742550f.gif": "/react-portfolio/static/media/rootsdemo2.f742550f.gif",
     "static/media/signin.5964412f.gif": "/react-portfolio/static/media/signin.5964412f.gif",
     "static/media/weather_dashboard.49842b02.PNG": "/react-portfolio/static/media/weather_dashboard.49842b02.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.c3000839.js",
-    "static/js/2.d935c319.chunk.js",
+    "static/js/2.48586acf.chunk.js",
     "static/css/main.ffdc6384.chunk.css",
-    "static/js/main.85249921.chunk.js"
+    "static/js/main.de0a2daf.chunk.js"
   ]
 }
