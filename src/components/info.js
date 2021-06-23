@@ -4,7 +4,7 @@ import weatherDashboard from "../images/weather_dashboard.PNG";
 import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-App.png";
 import roots from "../images/roots-App.png";
-import resume from "../images/Christy_Lee_Resume_Oct2020.pdf";
+import resume from "../images/FrontEndDeveloperResume";
 import techtalk from "../images/signin.gif";
 
 export default {
@@ -19,7 +19,7 @@ export default {
 
   // Landing page text
   landingPagePara: [
-    'Aspiring Full-Stack Web Developer',
+    'Aspiring Front-End Developer',
     'Making your vision come to life.',
   ],
 
