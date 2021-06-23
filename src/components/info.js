@@ -4,7 +4,7 @@ import weatherDashboard from "../images/weather_dashboard.PNG";
 import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-App.png";
 import roots from "../images/roots-App.png";
-import resume from "../images/FrontEndDeveloperResume";
+// import resume from "../images/FrontEndDevelopmentResume.pdf";
 import techtalk from "../images/signin.gif";
 
 export default {
@@ -88,7 +88,7 @@ export default {
     },
     {
       name: "Resume",
-      url: resume
+      url: "https://drive.google.com/file/d/1SZwvnG1x1VenEpBJuL6VuRApjDEFu5FE/view?usp=sharing"
     }
   ],
 
