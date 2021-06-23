@@ -11,7 +11,7 @@ const Header = ({name, contactEmail})=>{
                     <ul>
                         <li><Link to="/about">ABOUT</Link></li>
                         {/* shortcut to contacts */}
-                        <li><a href={`./react-portfolio/#contact`}>CONTACT</a></li>
+                        <li><a href={`/react-portfolio/#contact`}>CONTACT</a></li>
                         {/* <li><a href={`mailto:${contactEmail}`}>CONTACT</a></li> */}
                     </ul>
                 </nav>
