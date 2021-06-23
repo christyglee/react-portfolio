@@ -1,10 +1,11 @@
 import authorImage from "../images/headshot.png";
 import oClocktail from "../images/projectdemo.gif";
 import weatherDashboard from "../images/weather_dashboard.PNG";
-import dayPlanner from "../images/Day_Planner.jpg";
+// import dayPlanner from "../images/Day_Planner.jpg";
 import burger from "../images/Burger-Logger-Application.gif";
-import roots from "../images/roots-App.png";
+import roots from "../images/rootsdemo2.gif";
 // import resume from "../images/FrontEndDevelopmentResume.pdf";
+import google from "../images/googlebooksearch.gif"
 import techtalk from "../images/signin.gif";
 
 export default {
@@ -42,13 +43,13 @@ export default {
       url: "https://christyglee.github.io/weather-dashboard/",
       repoUrl: "https://github.com/christyglee/weather-dashboard"
     },
-    {
-      id: 3, 
-      title: "work day scheduler repository",
-      imageSrc: dayPlanner,
-      url: "https://christyglee.github.io/work-day-scheduler/",
-      repoUrl: "https://github.com/christyglee/work-day-scheduler"
-    },
+    // {
+    //   id: 3, 
+    //   title: "work day scheduler repository",
+    //   imageSrc: dayPlanner,
+    //   url: "https://christyglee.github.io/work-day-scheduler/",
+    //   repoUrl: "https://github.com/christyglee/work-day-scheduler"
+    // },
     {
       id: 4, 
       title: "burger repository",
@@ -64,7 +65,14 @@ export default {
       repoUrl: "https://github.com/christyglee/roots-a-social-garden"
     },
     {
-      id: 6, 
+      id: 6,
+      title: "Google Book Search",
+      imageSrc: google,
+      url: "https://intense-castle-73728.herokuapp.com/",
+      repoUrl: "https://github.com/christyglee/google-book-search-mern"
+    },
+    {
+      id: 7, 
       title: "Tech Talk",
       imageSrc: techtalk,
       url: "https://app-tech-talk.herokuapp.com/",
